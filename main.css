@@ -21,15 +21,19 @@ body {
 
 .column1, .column2, .column3 {
 	width: 100%;
+  margin: 1%;
 }
 
 .column3 {
   margin-right: 0%;
 }
 
+ul {
+  padding-left: 0px;
+}
+
 li {
-	display: inline;
-	padding: 0.5em;
+	list-style: none;
 }
 
 #nav, #footer {
@@ -55,6 +59,9 @@ img {
   .column1, .column2, .column3 {
     width: 31.3%;
   	float: left;
-  	margin: 1%;
+  }
+  li {
+  	display: inline;
+  	padding: 0.5em;
   }
 }
