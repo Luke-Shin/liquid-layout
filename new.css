@@ -32,10 +32,6 @@ footer ul {
     width: 20%;
   }
 
-  footer li+li {
-    margin-top: 0px;
-  }
-
   footer ul {
     flex-direction: row;
     justify-content: space-between;
@@ -48,10 +44,6 @@ footer li {
   padding: 10px;
   text-align: center;
   color: #fff;
-}
-
-footer li+li {
-  margin-top: 15px;
 }
 
 footer li:nth-child(1) {
